@@ -7,9 +7,9 @@ import './gallery-header.scss';
 // TO ADD Search bar if enough time left
 const GalleryHeader = () =>{
     return (
-        <Container className="gallery-head">
+        <Container className="gallery-head" fluid>
             <Row>
-                <Col xs={5}>
+                <Col>
                     <img src={Logo} alt="Klipfolio Logo"></img>                
                 </Col>
             </Row>
