@@ -29,6 +29,8 @@ const ServiceGallery = () =>{
     }, []);
 
     return (
+        <div>
+            <h5>Recommended Services</h5>
             <Row xs> 
                 {services.map( (service, index) => 
                     <Col xs={1}>
@@ -37,7 +39,7 @@ const ServiceGallery = () =>{
                 )
                 }
             </Row>
-
+        </div>
     );
 }
 

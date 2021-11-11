@@ -20,14 +20,18 @@ const DataGallery = () => {
     }, []);
 
     return (
-        <Row xs={2}> 
-            {data_sources.map( (data_source, index) => 
-                <Col xs={2}>
-                    <DataCard title={data_source.title} key={"d"+index.toString()}></DataCard>
-                </Col>
-            )
-            }
-        </Row>
+        <div>
+            <h5>Existing Data Sources</h5>
+            <Row xs={2}> 
+                {data_sources.map( (data_source, index) => 
+                    <Col xs={2}>
+                        <DataCard title={data_source.title} key={"d"+index.toString()}></DataCard>
+                    </Col>
+                )
+                }
+            </Row>
+        </div>
+
 
     );
 }
