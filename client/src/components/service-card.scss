@@ -1,4 +1,4 @@
-.card {
+.service-card {
     background-color: #f2f3f4;
     border: none;
     text-align: center;
@@ -9,4 +9,5 @@
 }
 .small-text {
     font-size: 0.55em;
+    text-overflow: ellipsis;
 }

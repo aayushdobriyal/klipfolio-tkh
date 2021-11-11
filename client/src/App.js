@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <GalleryHeader></GalleryHeader>
-      <ServiceGallery></ServiceGallery>
+      <GalleryBody></GalleryBody>
     </div>
   );
 }

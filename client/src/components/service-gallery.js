@@ -17,30 +17,6 @@ function getServices(){
     },{
         'title': "Facebook",
         'img': fLogo,      
-    },{
-        'title': "Facebook",
-        'img': fLogo,      
-    },{
-        'title': "Facebook",
-        'img': fLogo,      
-    },{
-        'title': "Facebook",
-        'img': fLogo,      
-    },{
-        'title': "Facebook",
-        'img': fLogo,      
-    },{
-        'title': "Facebook",
-        'img': fLogo,      
-    },{
-        'title': "Facebook",
-        'img': fLogo,      
-    },{
-        'title': "Facebook",
-        'img': fLogo,      
-    },{
-        'title': "Facebook",
-        'img': fLogo,      
     }];
 }
 
@@ -55,7 +31,7 @@ const ServiceGallery = () =>{
     return (
             <Row xs> 
                 {services.map( (service, index) => 
-                    <Col xs>
+                    <Col xs={1}>
                         <ServiceCard title={service.title} img={service.img} key={index}></ServiceCard>
                     </Col>
                 )

@@ -1,0 +1,17 @@
+.data-card {
+    display: flex;
+    background-color: white;
+    background-image: url('../assets/data_source_card_background1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 5em;
+    max-height: 5em;
+}
+
+.data-card-text {
+    font-size: 1.04em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

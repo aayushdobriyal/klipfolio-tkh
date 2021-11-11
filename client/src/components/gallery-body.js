@@ -1,10 +1,16 @@
 import {React} from 'react';
+
 import ServiceGallery from './service-gallery.js';
+import DataGallery from './data-gallery.js';
 
 
 const GalleryBody = () =>{
     return (
-        <ServiceGallery></ServiceGallery>
+        <div>
+            <ServiceGallery></ServiceGallery>
+            <DataGallery></DataGallery>
+        </div>
+
     );
 }
 
